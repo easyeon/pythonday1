@@ -1,0 +1,1 @@
+db={"ip":"localhost","user":"root","port":3306,"password":"root","database":"easy","charset":"utf8"}
