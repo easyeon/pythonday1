@@ -4,7 +4,7 @@ from email.header import Header
 
 sender="2452369568@qq.com"
 host_qq = 'smtp.qq.com'
-password_qq="bwjqdpghpzqbdjbe"
+password_qq=""
 port_qq=25
 receivers=["finbarr45@163.com"]
 
