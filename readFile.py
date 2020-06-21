@@ -1,5 +1,6 @@
 #读取文件demo
-
+import  os
+import sys
 def readFile(filePath,type):
     """
     读取文件
@@ -19,4 +20,11 @@ def readFile(filePath,type):
 
 #调用方法
 filePath='C:\\Users\\hadoop\\Desktop\\readme.txt'
-readFile(filePath,'r')
+#readFile(filePath,'r')
+
+workdir=os.listdir("C:\\")
+print(workdir)
+cwd=os.getcwd()
+print(cwd)
+syspath=sys.path
+print(syspath)
